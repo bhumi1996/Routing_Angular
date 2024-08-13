@@ -1,0 +1,25 @@
+.form-container{
+    background-color: hsla(194, 50%, 9%, 0.7);
+    padding:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form{
+    padding: 30px;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-label{
+    font-weight: bolder;
+    float: left;
+}
+.form-input{
+    padding: 5px;
+}

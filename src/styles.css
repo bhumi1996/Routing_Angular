@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    background-color: rgb(220, 234, 238);
+    text-align: center;
+    padding: 30px 100px;
+}
+.active{
+    border-bottom: 2px solid rgb(69, 201, 238);
+    transform: border-width 0.5s ;
+}

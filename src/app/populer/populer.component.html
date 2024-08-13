@@ -1,0 +1,26 @@
+<div class="populer">
+@for (course of courses; track course.id) {
+    <div class="populer-item">
+        <div class="img">
+            <img [src]="course.imgpath" alt="">
+        </div>
+        <div class="name">
+            <h3>{{course.name}}</h3>
+        </div>
+        <div class="description">
+            <p style="text-align: justify; word-spacing: 0.2px; color: black; font-weight: bold; padding: 10px;">{{course.description}}</p>
+        </div>
+        <div class="price">
+           <h4>{{course.price}}</h4>
+        </div>
+        <div class="buttons">
+            <button class="btn">Buy Now</button>
+            <button class="btn" (click)="navigeToDetail(course.id)">Details</button>
+        </div>
+    </div>
+
+
+  } @empty {
+    Empty list of courses
+  }
+</div>

@@ -1,0 +1,30 @@
+.contact{
+    width: 500px ;
+    margin: 50px auto;
+}
+.main-section{
+    width: 100%;
+    background:linear-gradient(45deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8)),url('https://tse2.mm.bing.net/th?id=OIP._nm99b18Qnnp_tq0lbpYdAHaEo&pid=Api&P=0&h=180');
+    background-attachment: fixed;
+    padding: 20px 0;
+}
+.contact-btn{
+    width: 500px;
+    padding: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(97, 4, 4);
+    margin: auto;
+
+}
+.main-section h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px gray;
+}

@@ -1,0 +1,16 @@
+<div class="form-container">
+    <div class="form">
+      <h2>Please Login Here </h2>
+        <div class="mb-3 row">
+           <label for="username" class="form-label">Username</label><br>
+           <input type="text" class="form-input"  id="username" placeholder="Username" #username>
+          </div>
+          <div class="mb-3 row">
+            <label for="password" class="form-label">Password</label><br>
+            <input type="text" class="form-input"  id="password" placeholder="Password" #password>
+          </div>
+          <div class="mb-3 row" style="width: 55%;">
+          <button class="btn btn-primary" (click)="onLoginClick()">Submit</button>
+          </div>
+    </div>
+</div>

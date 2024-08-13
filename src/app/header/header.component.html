@@ -1,0 +1,32 @@
+
+
+<header class="upper-header">
+   <nav class="upper-nav">
+      <ul class="navbar-list">
+         <li><a routerLink="home"  fragment="search" class="upper-link">Search</a></li>
+         <li><a  routerLink="home" fragment="populer" class="upper-link">Puper Courses </a></li>
+         <li><a routerLink="home" fragment="contact" class="upper-link">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+<header class="header">
+   <div class="logo">
+    <h3>Procademy</h3>
+   </div>
+   <nav class="navbar">
+     <ul class="navbar-list">
+        <li><a routerLink="home"  routerLinkActive="active"  class="nav-links">Home</a></li>
+        <li><a  routerLink="about"  routerLinkActive="active" class="nav-links">About</a></li>
+        <li><a routerLink="contact"  routerLinkActive="active" class="nav-links">Contact</a></li>
+        <li><a routerLink="courses"  routerLinkActive="active" class="nav-links">Courses</a></li>
+        <li><a routerLink="search"  routerLinkActive="active" class="nav-links">Search</a></li>
+     </ul>
+   </nav>
+   <div class="login">
+    <ul class="log">
+        <li><a  routerLink="login"  routerLinkActive="active"  class="log-links">Login</a></li>
+        <li><a  routerLink="login" [queryParams]="{logout:true}" class="log-links">Logout</a></li>
+    </ul>
+   </div>
+</header>
+

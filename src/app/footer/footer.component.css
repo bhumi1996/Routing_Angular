@@ -1,0 +1,81 @@
+.footer{
+    background-color: hsla(194, 50%, 9%, 0.7);
+    width: 100%;
+    /* margin-top: 10px; */
+    /* padding: 0 2.3rem; */
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.lower-footer{
+    width: 100%;
+    padding: 1rem;
+}
+.social{
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.social-links{
+    display: inline-block;
+    font-size: larger;
+}
+.social-links{
+    color: rgb(168, 221, 237);
+    text-shadow: 1px 2px 1px gray;
+    transition: all 0.5s ease-in-out;
+}
+.social-links:hover{
+    color: black;
+}
+.upper-footer{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    height: 80%;
+    padding-top: 20px;
+}
+.about{
+    width: 400px;
+}
+.upper-footer h3{
+    color: rgb(168, 221, 237);
+    margin-bottom: 10px;
+}
+.last ul{
+    list-style: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact li{
+    margin: 5px;
+}
+.contact li a{
+    color:rgb(168, 221, 237);
+    margin-right: 3px;
+    text-shadow: 1px 1px 1px black;
+}
+.contact li a:hover{
+    color:black;
+
+
+}
+.last ul li{
+    padding-left: 5px;
+    text-shadow: 2px 3px 6px gray;
+    font-weight: bold;
+    transition: all 0.5s;
+    font-size: medium;
+}
+.last ul li:hover{
+    color:rgb(225, 242, 247);
+}
+.about p{
+    text-shadow: 2px 3px 6px gray;
+    font-weight: bold; 
+    text-decoration-style: solid;
+}

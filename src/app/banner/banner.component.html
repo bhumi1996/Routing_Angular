@@ -1,0 +1,11 @@
+<div class="container main-section">
+    <div class="flex-item">
+        <div>
+          <h2 class="heading">Secure Your Career With Us Join Our Future Scopes Classes</h2>
+        </div>
+        <div>
+          <input type="text" class="section-input" #searchval>
+          <button  type="button"  class="section-btn" [routerLink]="'/courses'" (click)="onSearchClick(searchval.value)">Search Here</button>
+        </div>
+    </div>
+</div>

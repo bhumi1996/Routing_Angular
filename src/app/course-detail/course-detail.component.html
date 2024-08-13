@@ -1,0 +1,19 @@
+<div class="container">
+    <h1 style="margin-bottom: 20px; font-weight: bold;;">Course Detail</h1>
+    <div class="populer-item">
+        <div class="img">
+            <img  [src]="selectedCourse.imgpath" alt="">
+        </div>
+        <div class="name">
+            <h3>{{selectedCourse.name}}</h3>
+        </div>
+        <div class="price">
+           <h4>{{selectedCourse.price}}</h4>
+        </div>
+      <div class="buttons">
+        <a  [routerLink]="'/courses/course/' + (selectedCourse.id-1)">Prevoise Page</a>
+        <a  [routerLink]="'/courses/course/' + (selectedCourse.id+1)">Next Page</a>
+      </div>
+    </div>
+    
+</div>
